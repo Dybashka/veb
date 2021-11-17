@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+}
+
+.header1 {
+    background-color: black;
+    color: white;
+    background-image: url(../images/fon1.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name{
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.main-menu {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.main-menu a:hover {
+    color: violet;
+    transition: 0.5s;
+}
+
+main p {
+    text-align: justify;
+}
+
+.avatar {
+    height: 350px;  
+    text-align: center;
+    margin: 3rem 0;
+    background-image: url(../images/fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar img {
+    height: 100%;
+}
+
+.btn {
+    text-decoration: none;
+    color: violet;
+    font-weight: bold;
+    border: 2px solid violet;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.btn:hover{
+    color:black;
+    border-color:black;
+    transition: color 0.5s, border-color 0.5s;
+}
+
+.contact-me-btn{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.contact-me-btn:hover{
+    color:violet;
+    border-color:violet;
+    transition: color 0.5s, border-color 0.5s;
+}
+
+.footer1 {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    margin-top: 2rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.py-5{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.w-50{
+    max-width: 50%;
+}
+
+.my-3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
