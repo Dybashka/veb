@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+     <title>Форма обратной связи</title>
+     <link rel="icon" href="images/icon1.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body gcolor="#000" background="images/fon.jpg">
+
+    <a href="authorization.html">
+        <button class="btn1 btn" >Авторизация</button>
+    </a>
+   
+    <h1>Форма обратной связи</h1>
+    <div class="container">
+        <form action="https://httpbin.org/post" method="POST" enctype="multipart/form-data" >
+            <div class="form-group">
+                <label for="name">ФИО</label>
+                <input id="name" type="text" name="name" value="Иванов Иван Иванович"  required >
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" name="email" placeholder="Введите почту" required>
+            </div>
+
+            <div class="form-group">
+                <p class="form-label">Как вы узнали о нас?</p>
+
+                <input type="radio" name="source" id="advertising" value="advertising" checked>
+                <label for="advertising">Реклама в инетернете</label>
+
+                <input type="radio" name="source" id="friends" value="friends">
+                <label for="friends">Рассказали знакомые </label>
+            </div>
+
+            <div class="form-group">
+                <label for="category" class="form-label">Категория обращения</label>
+                <select name="category" id="category">
+                    <option value="proposal" >Предложение</option>
+                    <option value="grievance" >Жалоба</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="message">Текст сообощения</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Введите сообощение">Текст по умолчанию</textarea>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="attachment">Вложение</label>
+                <input type="file" name="attachment" id="attachment">
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" name="agreement" id="agreement" value="yes">
+                <label for="agreement">Даю согласие на обработку персональных данных</label>
+            </div>
+
+            <input class="btn2 btn " type="submit" value="Отправить">
+        </form>
+    </div>
+
+    <footer class="footer1">
+        <div class="container">
+            &copy; Балашова Дарья Вячеславовна 
+        </div>
+    </footer>
+    
+</body>
+</html>

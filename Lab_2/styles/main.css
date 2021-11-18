@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container{
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+} 
+
+input, textarea, select{
+    font-size: inherit;
+}
+
+.btn2{
+display: block;
+margin: 0 auto;
+}
+
+.btn1{
+ margin: 10px;
+}
+
+.btn{
+    height: 40px;
+    background: none;
+    border: 3px solid rgb(50, 38, 56);
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(50, 38, 56);
+    font-weight: bold;
+}
+
+
+.btn:hover{
+    background-color: rgb(50, 38, 56);
+    color: white;
+    transition: 0.5s;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer1 {
+    background-color: #5e5577;
+    color: white;
+    padding: 40px 0;
+    margin-top: 2rem;
+}
+.m-1{
+    height: 445px;
+}
+
+.h-1{
+    height: 106px;
+}
