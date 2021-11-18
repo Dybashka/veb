@@ -5,7 +5,7 @@ body {
 .header1 {
     background-color: black;
     color: white;
-    background-image: url(../images/fon1.jpg);
+    background-image: url(../images/fon3.jpg);
     background-size: cover;
     font-family: 'Roboto', sans-serif;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .main-menu a:hover {
-    color: violet;
+    color: black;
     transition: 0.5s;
 }
 
@@ -44,7 +44,7 @@ main p {
     height: 350px;  
     text-align: center;
     margin: 3rem 0;
-    background-image: url(../images/fon.jpg);
+    background-image: url(../images/fon4.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -55,9 +55,9 @@ main p {
 
 .btn {
     text-decoration: none;
-    color: violet;
+    color: #5e5577;
     font-weight: bold;
-    border: 2px solid violet;
+    border: 2px solid #5e5577;
     padding: 10px;
     border-radius: 5px;
 }
@@ -72,7 +72,7 @@ main p {
 .contact-me-btn{
     text-decoration: none;
     color: white;
-    border: 2px solid white;
+    border: 3px solid white;
     padding: 10px;
     border-radius: 5px;
     font-size: 1.2rem;
@@ -80,13 +80,13 @@ main p {
 }
 
 .contact-me-btn:hover{
-    color:violet;
-    border-color:violet;
+    color:black;
+    border-color:black;
     transition: color 0.5s, border-color 0.5s;
 }
 
 .footer1 {
-    background-color: black;
+    background-color: #5e5577;
     color: white;
     padding: 40px 0;
     margin-top: 2rem;
