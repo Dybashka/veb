@@ -1,0 +1,160 @@
+html{
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-width: 300px;
+}
+
+h3{
+    margin-top: 0;
+}
+
+.header1{
+    background-color: rgb(197, 150, 211);
+    padding-top: 20px;
+    min-height: 70px;
+    box-sizing: border-box;
+    border-bottom: 7px solid rgb(91, 59, 102);
+}
+
+.main-menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-menu a {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+    transition: all 0.5s;
+}
+
+.main-menu a:hover{
+    color: white;
+}
+
+.navigation{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.profile{
+    display: flex;
+}
+
+.flex-wrapper {
+    display: flex;
+}
+
+.container {
+    padding-top: 10px;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.form-group{
+    margin-bottom: 5px;
+}
+
+.sidebar{
+    padding: 20px;
+
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.goods-list{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.goods {
+    display: inline-block;
+    border: 3px solid rgb(91, 59, 102);
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-height: 300px;
+    min-width: 250px;
+}
+
+.goods-img img {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.price-and-buy {
+    height: 50px;
+}
+
+.price {
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: rgb(197, 150, 211);
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.buy-btn{
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: rgb(91, 59, 102);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+    transition: all 0.7s;
+}
+
+.buy-btn:hover{
+    background-color: rgb(197, 150, 211);
+    color: black;
+}
+
+.footer1{
+    background-color: rgb(197, 150, 211);
+    min-height: 100px;
+    border-top: 7px solid rgb(91, 59, 102);
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+@media all and (max-width: 600px){
+    .main-menu{
+        flex-direction: column; 
+    }
+
+    .navigation{
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .profile{
+        justify-content: center;
+    }
+
+    .flex-wrapper{
+        flex-direction: column;
+    }
+}
